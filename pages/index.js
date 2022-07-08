@@ -20,12 +20,13 @@ export default function Home({ products }) {
         <h1 className='section-title'>
           Shop
         </h1>
+        <div className='products-container'>
+          {products?.map(
+            (product) => <Product key={product._id} product={product} />)}
+        </div>
       </div>
 
-      <div className='products-container'>
-        {products?.map(
-          (product) => <Product key={product._id} product={product} />)}
-      </div>
+
 
     </div>
 
