@@ -11,7 +11,7 @@ const Banner = () => {
       </div>
       <div className='intro-p'>
         <p>
-          Ahoy is a one-stop shop for everything you need
+          Capsher is a one-stop shop for everything you need
         </p>
 
         <p>to unleash your inner photographer.</p>

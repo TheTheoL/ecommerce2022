@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <div className='nav'>
             <p className='logo'>
-                <Link href='/'>Ahoy</Link>
+                <Link href='/'>Capsher</Link>
             </p>
             <button type='button' className='nav-cart' onClick="">
                 <BsFillBagFill />

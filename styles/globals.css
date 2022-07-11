@@ -35,7 +35,7 @@ a {
   cursor: pointer;
   font-size: 3rem;
   margin: 0;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Satisfy', cursive;
   font-weight: 700;
 }
 
@@ -79,8 +79,8 @@ a {
   margin-right: 20px;
   height: 70vh;
   background-image:
-  linear-gradient(to bottom, rgba(43, 43, 44, 0.52), rgba(84, 9, 65, 0.73)), url(
-    '../public/assets/banner2.jpg' 
+  url(
+    '../public/assets/banner3.jpg' 
   ); 
   background-size:cover;
   background-position: center;
@@ -89,7 +89,7 @@ a {
 
 .intro {
   padding: 7rem 3rem 0rem 3rem;
-  color: rgb(255, 255, 255);
+  color: rgb(69, 59, 59);
   font-size: 2rem;
 }
 
@@ -99,7 +99,7 @@ a {
 
 .intro-p {
   padding-left: 48px;
-  color: rgb(222, 222, 222);
+  color: rgb(68, 66, 66);
   font-size: 1.5rem;
 }
 
@@ -114,27 +114,27 @@ a {
         font-size: 1.1rem;
         cursor: pointer;
         padding: 1rem 2rem;
-        border: 3px solid white;
+        border: 3px solid black;
         background: transparent;
-        color: white;
+        color: black;
         margin-left: 40px;
 }
 
 
 .about-button:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 .shop-button:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 
 
 /* Shop section */
 .shop-container {
-  height: 60vh;
+  height: 70vh;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 3rem;
@@ -205,4 +205,153 @@ a {
   }
   .layout{
     padding: 10px;
+  }
+
+  /* FOOTER */
+  .footer {
+  
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border-top: 3px solid black;
+  }
+
+  .footer span {
+    margin-top: 20px;
+  }
+
+  .insta-icon {
+    font-size: 2rem;
+  }
+
+  .insta-icon:hover {
+    color:rgb(165, 162, 162);
+    cursor: pointer;
+  }
+
+
+  /* PRODUCT DETAILS */
+  .product-detail-container{
+    display: flex;
+   gap: 40px;
+   margin: 40px;
+   margin-top: 60px;
+   color: #324d67;
+  
+  }
+
+  .product-detail-image{
+    border-radius: 15px;
+     background-color: #ebebeb;
+  
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+  }
+
+  .small-images-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .small-image{
+    border-radius: 8px;
+    background-color: #ebebeb;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+  .maylike-products-wrapper{
+    margin-top: 120px;
+  }
+  .maylike-products-wrapper h2{
+    text-align: center;
+    margin: 50px;
+    color: #324d67;
+  
+    font-size: 28px;
+  }
+  .maylike-products-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .marquee-text{
+    font-size: 29px;
+    font-weight: 600;
+    margin: 60px 0px;
+    color: #f02d34;
+  }
+  .marquee {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .product-detail-desc .buttons{
+    display: flex;
+    gap: 30px;
+  }
+  .buttons .add-to-cart{
+    padding: 10px 20px;
+    border: 3px solid black ;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+     transform: scale(1, 1);
+    transition: transform 0.5s ease;
+  }
+  .buttons .add-to-cart:hover{
+    transform:scale(1.1,1.1)
+  }
+  .buttons .buy-now{
+    width: 200px;
+  
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+     transform: scale(1, 1);
+    transition: transform 0.5s ease;
+  }
+  .buttons .buy-now:hover{
+    transform:scale(1.1,1.1)
+  }
+  .quantity-desc{
+    border: 1px solid gray;
+  padding: 6px;
+  }
+  .quantity-desc span{
+    font-size: 16px;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  .quantity-desc .minus{
+    border-right: 1px solid gray;
+    color: #f02d34;
+  }
+  .quantity-desc .num{
+    border-right: 1px solid gray;
+    font-size: 20px;
+  }
+  .quantity-desc .plus{
+    color: rgb(49, 168, 49);
+  
   }
