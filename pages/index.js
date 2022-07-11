@@ -10,9 +10,6 @@ import Product from '../components/Product';
 export default function Home({ products }) {
   return (
     <div>
-      <>
-        <Nav />
-      </>
 
       <Banner />
       {/* shop section */}
